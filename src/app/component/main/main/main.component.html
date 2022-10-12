@@ -1,0 +1,16 @@
+<table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">NOM</th>
+        <th scope="col">DISONIBILITE</th>
+        <th scope="col">HEURES PLANIFIEES</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let employe of tableau">
+            <td>{{employe.employe}}</td>
+            <td>{{employe.disponibilite}}</td>
+            <td>{{employe.heures}}</td>
+        </tr>
+
+    </tbody>
